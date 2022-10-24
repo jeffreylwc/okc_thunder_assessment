@@ -1,6 +1,6 @@
 data <- read.csv(file = '/Downloads/shots_data.csv')
 
-### Pythagorean theorem function to calculate the shot from the hoop
+### Pythagorean theorem function to calculate the distance of the shot from the hoop
 pythagorean <- function(x, y) {
   return(sqrt(x^2 + y^2))
 }
